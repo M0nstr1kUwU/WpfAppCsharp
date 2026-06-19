@@ -1,4 +1,4 @@
-# Для смены окна менять название на нужное окно:
+# Для смены окна менять название на нужное:
 ```C#
 <Application x:Class="WpfApp1.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
