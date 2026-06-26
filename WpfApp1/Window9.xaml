@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.Window9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window9" Height="450" Width="800">
+    <Grid>
+        <local:UserControl2
+            Width="150"
+            Height="50"
+            Text="Сохранить"
+            IconSource="Images/user.png"
+            Click="IconButton_Click"/>
+    </Grid>
+</Window>
